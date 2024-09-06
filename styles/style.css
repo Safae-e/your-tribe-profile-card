@@ -1,5 +1,23 @@
-body {background-color:whitesmoke ;}
-body {border:black 3px solid;width: 10cm;}
+body {
+  background-color:whitesmoke ;
+
+}
+
 .background {
-  background-image: url('../assets/d60980cd1c030e1d016fc43b34ca0300.gif');
+  background-image: url('../assets/groene\ ster.gif');
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+img {
+  grid-column-start: 2;
+}
+
+ul {
+  grid-column-start: 1;
+  font-size: 185%;
 }
